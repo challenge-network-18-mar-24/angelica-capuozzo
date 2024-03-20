@@ -6,10 +6,10 @@ title{
 }
 
 body {
-    color:beige;
+    color:palevioletred;
     font-family: monospace;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 5px;
 }
 
 h1{ 
@@ -20,10 +20,10 @@ h1{
 }
 
 h2{
-    color: aqua;
+    color:brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 10px;
 }
 
 .azure{
@@ -37,7 +37,7 @@ h2{
     color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #drama {
