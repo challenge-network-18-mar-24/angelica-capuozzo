@@ -9,7 +9,7 @@ body {
     color:palevioletred;
     font-family: monospace;
     font-weight: lighter;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 h1{ 
@@ -23,25 +23,25 @@ h2{
     color:brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .azure{
-    color: peru;
+    color: lightcoral;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 15px;
 }
 
 .ul{
-    color: bisque;
+    color: rgb(133, 64, 3);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 #drama {
-    color: pink;
+    color: rgb(168, 53, 72);
     font-family:cursive;
     font-weight: lighter;
     font-size: 15px;
