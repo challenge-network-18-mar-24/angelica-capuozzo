@@ -47,13 +47,13 @@
 
       <ul class="nav nav-underline">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#description">PRESENTAZIONE</a>
+          <a class="nav-link" aria-current="page" href="#description" style="color:rgb(173, 104, 99);">PRESENTAZIONE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#drama">DRAMA</a>
+          <a class="nav-link" href="#drama" style="color: rgb(173,104,99);">DRAMA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#passion">PASSIONI</a>
+          <a class="nav-link" href="#passion" style="color: rgb(173,104,99);">PASSIONI</a>
         </li>
       </ul>
 
@@ -123,36 +123,33 @@
       </div>
   </div>
   </div>
+
   </section>
 
   <div class="cardboot" style="width: 22rem;">
-    <img src="./immagine/passion.jpg" class="card-img-top" alt="passioni" style="width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"> <b> LE MIE PASSIONI </b> </h5>
-      <ul class="list-group list-group-flush">
+    <section id="passion">
+      <img src="./immagine/passion.jpg" class="card-img-top" alt="passioni" style="width: 12rem;">
+      <div class="card-body">
+        <h5 class="card-title"> <b> LE MIE PASSIONI </b> </h5>
+        <ul class="list-group list-group-flush">
 
-        <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
-            data-bs-target="">
-            animali</button> </li>
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="passion">
+              animali</button> </li>
 
-        <li class="list-group-item"> moda </li>
-        <li class="list-group-item"> drama </li>
-      </ul>
-    </div>
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              moda </button> </li>
+
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              drama </button> </li>
+        </ul>
+      </div>
+    </section>
   </div>
 
-  <div id="passion">
-
-    <h2> <b>Le mie passioni</b> </h2>
-
-    <ul>
-      <li> amo gli animali</li>
-      <li> la moda</li>
-      <li> guardare k-drama </li>
-
-    </ul>
-
-  </div>
+  <!--foto-->
 
   <div class="photo">
 
@@ -164,28 +161,43 @@
 
   </div>
 
-  <div id="drama">
+  <!--card-->
 
-    <h2> <b>MY TOP 3 FAVORITE K-DRAMA</b></h2>
+  <div class="cardboot" style="width: 22rem;">
+    <section id="drama">
+      <img src="./immagine/kdrama.jpg" class="card-img-top" alt="drama" style="width: 12rem;">
+      <div class="card-body">
+        <h5 class="card-title"> <b> K-DRAMA </b> </h5>
+        <ul class="list-group list-group-flush">
 
-    <ol>
-      <li> 20th Century Girl</li>
-      <li> Alchemy of souls</li>
-      <li> My name</li>
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="">
+              20 th century girl </button> </li>
 
-    </ol>
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              alchemy-of-soul </button> </li>
 
+          <li class="list-group-item"> <button type="button" class="btn btn-light" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              my name </button> </li>
+        </ul>
+      </div>
+    </section>
   </div>
+
 
   <div class="photo">
 
-    <img src="./immagine/my-name.jpg" alt="my name" width="100" height="160">
+    <img src="./immagine/20-th-girl.jpg" alt="20 th century girl" width="100" height="160">
 
     <img src="./immagine/alchemy-of-soul.jpg" alt="alchemy of soul" width="100" height="160">
 
-    <img src="./immagine/20-th-girl.jpg" alt="20th century girl" width="90" height="160">
+    <img src="./immagine/my-name.jpg" alt="my name" width="100" height="160">
 
   </div> <br>
+
+  <!--newsletter-->
 
   <div class="dropdown">
     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
@@ -212,6 +224,8 @@
     </form>
   </div>
 
+  <!--contatti-->
+
   <div class="contatti">
 
     <p> contatti </p>
@@ -225,7 +239,7 @@
       <img src="./immagine/Instagram-Icon.png" alt="icona_ig" width="60" height="50" button type="button"
         class="btn btn-link"></a>
 
-  </div>
+    </div>
 </body>
 
 </html>
